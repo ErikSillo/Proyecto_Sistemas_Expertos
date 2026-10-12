@@ -9,8 +9,8 @@ Docker Desktop y Git. No hace falta instalar Node.
 ```bash
 git clone <url-del-repositorio>
 cd <carpeta>
-copy .env.example .env
-docker compose up --build
+copy .env.example .env     # solo la primera vez
+docker compose up --build  # solo la primera vez
 ```
 
 - Frontend: http://localhost:5173
